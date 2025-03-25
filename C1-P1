@@ -1,0 +1,37 @@
+/*
+ * about_me.c
+ * 
+ * Purpose: This ANSI C program prints the details of project members, including name, gender, major, experience, role, skills, and an introduction.
+ * It follows the ANSI C standard and GNU coding style, using only standard libraries.
+ * 
+ */
+
+ #include <stdio.h>
+
+ int main() {
+     /* Print project member introduction */
+     printf("\n[Magrathea] \u2764\u2764 Project Member Introduction \u2764\u2764\n");
+     printf("=====================================================================\n");
+ 
+     /* Arthur Dent */
+     printf("Name         | Arthur Dent\t\tGender     | Male\n");
+     printf("Major        | Mechanical Engineering\tExperience | 15 years\n");
+     printf("Role         | Architect\t\tSkills | C/C++, Java, Spring, Python, Machine Learning/Deep Learning\n");
+     printf("---------------------------------------------------------------------\n");
+     printf("Introduction | I built my career working on various projects in SNS, fintech, HR, and media in Silicon Valley.\n");
+     printf("               Through successes and failures, I have gained insights I want to share with you.\n");
+     printf("=====================================================================\n");
+ 
+     /* Kim Youngjin */
+     printf("Name         | Kim Youngjin\t\tGender     | Male\n");
+     printf("Major        | Computer Engineering\tExperience | 2 years\n");
+     printf("Role         | Developer\t\tSkills | C#, Python, JavaScript, React, Kotlin\n");
+     printf("---------------------------------------------------------------------\n");
+     printf("Introduction | Recently, I found immense passion for software development through a personal asset management project using the MAUI framework.\n");
+     printf("               Solving real-world problems with my code is incredible! Successfully developing Magrathea has now become one of my bucket list goals.\n");
+     printf("=====================================================================\n");
+ 
+     /* Additional team members can be added here following the same format */
+     
+     return 0;
+ }
